@@ -1,0 +1,29 @@
+.seccionPdf {
+    text-align: center;
+    width: 100%;
+}
+
+.divContenedorPdf {
+    background-color: #0c51682c;
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px 15px;
+    padding: 15px;
+    display: inline-flex;
+}
+
+.divContenedorPdf div img {
+    width: 200px;
+    height: 250px;
+    display: block;
+}
+
+.divContenedorPdf a {
+    text-decoration: none;
+    color: #043849d7;
+    font-size: 22px;
+}
+
+.divContenedorPdf a:hover {
+    color: #02141a;
+}

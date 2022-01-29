@@ -1,0 +1,174 @@
+.seccionInicial {
+    display: flex;
+    background-color: #012A3C;
+    margin: 20px 20px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.seccionInicial div {
+    width: 50%;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0% 50px;
+}
+
+section div img {
+    /* width: 500px;
+    height: 400px; */
+    display: block;
+}
+
+.seccionSuscripcion {
+    display: flex;
+    text-align: center;
+    background-color: yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#divBotonSuscripcion {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+}
+
+#divBotonSuscripcion a {
+    background-color: #012A3C;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    display: inline-block;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#divBotonSuscripcion a:hover {
+    background-color: whitesmoke;
+    color: #012A3C;
+}
+
+
+/* POPUP DE VENTANA EMERGENTE */
+
+#ventanaEmergente {
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 900px;
+}
+
+.wrapper {
+    background-color: rgba(33, 42, 48, 0.980);
+    width: 30%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#ventanaEmergente h3 {
+    display: inline-flex;
+    margin: 0px 50px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+#ventanaEmergente div {
+    padding: 10px;
+}
+
+#ventanaEmergente form input {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+#ventanaEmergente form input[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#ventanaEmergente form input[type="submit"]:hover {
+    background-color: #105370;
+    color: white;
+    cursor: pointer;
+}
+
+#ventanaEmergente label {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botonCerrar {
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#botonCerrar:hover {
+    background-color: rgba(255, 0, 0, 0.644);
+}
+
+
+/* FIN DE POPUP */
+
+.seccionTopicos {
+    text-align: center;
+}
+
+.seccionTopicos h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 15px 0px 10px 0px;
+}
+
+.divSeccionTopicos {
+    background-color: #105370;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+}
+
+.divTopico {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    color: #faf6d9;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.divTopico img {
+    border-radius: 10px;
+}
+
+.divEnlaceContactanos {
+    background-color: rgba(42, 165, 93, 0.349);
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.divEnlaceContactanos a {
+    text-decoration: none;
+    color: #012a3cf6;
+}
+
+.divEnlaceContactanos a:hover {
+    color: rgb(201, 112, 11);
+}

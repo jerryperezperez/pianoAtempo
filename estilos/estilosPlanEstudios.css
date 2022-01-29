@@ -1,0 +1,83 @@
+.subtituloNivel {
+    text-align: center;
+    background-color: rgb(172, 97, 22);
+    color: rgb(216, 213, 47);
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listaPlan {
+    text-align: left;
+    /* background-color: aquamarine; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.listaPlan li {
+    padding: 10px 30px;
+    list-style: none;
+}
+
+.listaPlan li:hover {
+    background-color: #012a3cee;
+    color: whitesmoke;
+}
+
+.divRutina {
+    background-color: rgb(31, 92, 145);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.divRutina h2 {
+    color: rgba(240, 231, 231, 0.986);
+}
+
+.tablaRutina {
+    background-color: rgba(216, 209, 209, 0.986);
+    text-align: center;
+    padding: 10px 5px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-spacing: 10px 5px;
+}
+
+.encabezadoTabla {
+    background-color: rgb(172, 97, 22);
+    color: aliceblue;
+    font-size: 22px;
+}
+
+td {
+    background-color: #1351665b;
+    padding: 5px;
+    width: 190px;
+    border-radius: 5px;
+}
+
+.divSubtituloContactanos {
+    background-color: #212425;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtituloContactanos {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #2a6a8073;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.subtituloContactanos:hover {
+    background-color: rgba(216, 209, 209, 0.986);
+    color: #135166;
+}

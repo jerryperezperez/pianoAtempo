@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: rgb(238, 242, 255);
+}
+
+.contenedorGeneral {
+    width: 1400px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 20px 0px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textoPrincipal {
+    padding: 20px 30px;
+    background-color: wheat;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
